@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message EmojiKitchenData {
+    repeated EmojiEntry emojis = 1;
+    
+    repeated Combination combinations = 2;
+    
+    repeated Category categories = 3;
+}
+
+message EmojiEntry {
+    string emoji = 1;
+    uint32 id = 2; 
+}
+
+message Combination {
+    int32 id = 1;
+    repeated uint32 emoji_ids = 2 [packed = true];
+}
+
+message Category {
+    string name = 1;
+    uint32 start_emoji_id = 2;
+}

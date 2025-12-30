@@ -1,0 +1,20 @@
+{
+  "name": "emoji-kitchen-data",
+  "version": "0.0.1",
+  "description": "Emoji Kitchen data",
+  "main": "data.json",
+  "type": "module",
+  "repository": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data",
+  "author": "Jakub Grzywacz <kontakt@jakubgrzywacz.pl>",
+  "license": "MIT",
+  "scripts": {
+    "download": "node scripts/download.js",
+    "convert": "node scripts/convert.js",
+    "process": "node scripts/process.js",
+    "update": "yarn run download && yarn run convert && yarn run process"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "protobufjs": "^8.0.0"
+  }
+}
