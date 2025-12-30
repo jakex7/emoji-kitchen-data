@@ -3,16 +3,29 @@
   "version": "0.0.1",
   "description": "Emoji Kitchen data",
   "main": "data.json",
-  "type": "module",
-  "repository": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data",
+  "types": "index.d.ts",
   "author": "Jakub Grzywacz <kontakt@jakubgrzywacz.pl>",
   "license": "MIT",
+  "type": "module",
+  "files": [
+    "data.json",
+    "data-by-emoji.json",
+    "index.d.ts"
+  ],
   "scripts": {
     "download": "node scripts/download.js",
     "convert": "node scripts/convert.js",
     "process": "node scripts/process.js",
     "update": "yarn run download && yarn run convert && yarn run process"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data.git"
+  },
+  "bugs": {
+    "url": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data/issues"
+  },
+  "homepage": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data#readme",
   "devDependencies": {
     "dotenv": "^17.2.3",
     "protobufjs": "^8.0.0"
