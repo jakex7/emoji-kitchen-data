@@ -1,6 +1,6 @@
 {
   "name": "emoji-kitchen-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Emoji Kitchen data",
   "main": "data.json",
   "types": "index.d.ts",
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data.git"
+    "url": "https://github.com/jakex7/emoji-kitchen-data.git"
   },
   "bugs": {
-    "url": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data/issues"
+    "url": "https://github.com/jakex7/emoji-kitchen-data/issues"
   },
-  "homepage": "https://jakubgrzywacz.pl/jakex7/emoji-kitchen-data#readme",
+  "homepage": "https://github.com/jakex7/emoji-kitchen-data#readme",
   "devDependencies": {
     "dotenv": "^17.2.3",
     "protobufjs": "^8.0.0"
